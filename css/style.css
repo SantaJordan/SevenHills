@@ -1,11 +1,22 @@
-a:link {color: red; text-decoration: underline; }
-a:active {color: #a38a5d; text-decoration: underline; }
-a:visited {color: #a38a5d; text-decoration: underline; }
+a:link {color: #00033a; text-decoration: underline; }
+a:active {color: #00033a; text-decoration: underline; }
+a:visited {color: #00033a; text-decoration: underline; }
 a:hover {color: #ff0000; text-decoration: none; }
+
+.bigfont {
+	font-size: 20px;
+	color: #591f22;
+}
+
+
 
 html,body {
 	height: 100%;
 	font: 17px/22px Buenard, Georgia, serif;
+}
+
+strong {
+	font-weight: bold;
 }
 
 body {
@@ -16,8 +27,9 @@ p {
 	margin-bottom: 7px;
 }
 
-.map {
+#map {
 	margin-left: -25px;
+	opacity : .8;
 }
 
 .mt10 {
@@ -25,12 +37,13 @@ p {
 }
 
 .heading{
-	font-weight: bold;
+	color: #591f22;
 }
 
 #box {
 	background-color: rgba(255,255,255,.5);
 	width: 270px;
+	height: 700px;
 	bottom: 0px;
 	top: 0px;
 	left: 0px;
@@ -76,6 +89,7 @@ h1 {
 	left: 0;
 	right: 0;
 	bottom: 0;
+	height: 700px
 	background-repeat: no-repeat;
 	background-position: center center;
 	-moz-background-size: cover;
