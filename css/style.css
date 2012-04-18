@@ -89,7 +89,7 @@ h1 {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	height: 700px
+	min-height: 800px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	-moz-background-size: cover;
