@@ -1,13 +1,23 @@
 a:link {color: #00033a; text-decoration: underline; }
 a:active {color: #00033a; text-decoration: underline; }
 a:visited {color: #00033a; text-decoration: underline; }
-a:hover {color: #ff0000; text-decoration: none; }
+a:hover {color: #A38A5D; text-decoration: none; }
 
-.bigfont {
+
+#header {
 	font-size: 20px;
 	color: #591f22;
+	font-size: 1.2em;
+	text-align: left;
+	margin-top: 40px;
+	margin-left: 40px;
 }
 
+h1 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
 
 
 html,body {
@@ -27,31 +37,84 @@ p {
 	margin-bottom: 7px;
 }
 
-#map {
-	margin-left: -25px;
-	opacity : .8;
+
+#header span {
+	margin-top: 90px;
+	margin-left: -15px;
 }
 
-.mt10 {
-	margin-top: 10px;
+#imgs {
+	margin-top: 70px;
+	position: relative;
+	margin-bottom: 50px;
 }
-
-.heading{
-	color: #591f22;
-}
-
-#box {
-	background-color: rgba(255,255,255,.6);
-	width: 270px;
-	height: 700px;
-	bottom: 0px;
-	top: 0px;
-	left: 0px;
+#imgs li {
 	position: absolute;
-	padding: 20px 25px;
-	margin: 0px;
-	z-index: 1;
+	width: 100%;
 }
+
+#imgs img {
+	width: 100%;
+	display: block;
+}
+
+#links {
+	margin-left: 800px;
+	margin-top: 360px;
+	position: relative;
+}
+
+
+.reservation {
+position: relative;
+top: 50px;
+left: 60px;
+text-align: center;
+}
+
+#contact {
+position: relative;
+top: 70px;
+text-align: center;
+;
+}
+
+#hours {
+position: relative;
+top: 90px;
+left: 95px;
+text-align: left;
+}
+
+#restdetails {
+	width: 290px;
+	height: 400px;
+}
+
+
+
+/*Details about the resturant such as hours open and contact info*/
+/*.details {
+position: relative;
+top: 137px;
+left: 200px;
+text-align: left;
+}
+*/
+/*A hack to force Helvetica to ensure Make a Reservation doesn't run into the box lines*/
+/*.OT_title {
+	font-family: "Helvetica";
+}*/
+
+/*
+.heading{
+	position: relative;
+	color: #591f22;
+	font-size: 2.2em;
+	top: -10px;
+	left: -30px;
+}
+*/
 
 @media screen and (max-width:480px) {
 	#box {
@@ -61,47 +124,32 @@ p {
 }
 
 
-h1 {
-	font-size: 30px;
-	margin-bottom: 20px;
-	text-transform: uppercase;
-}
 
-#box ul {
+/*#box ul {
 	margin-bottom: 15px;
 }
 #box ul img {
  	margin-top: 15px;
+}*/
+/*
+.address {
+position: relative;
+top: 30px;
+left: 0px;
+right: 0;
+bottom: 0;
+color: #562022;
 }
 
+.name {
+position: relative;
+top: 50px;
+left: 50px;
+right: 0;
+bottom: 0;
+}*/
 
-
-/* Images */
-
-#bkg-imgs {
-	display: block;
-}
-
-
-#bkg-imgs li {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	min-height: 800px;
-	background-repeat: no-repeat;
-	background-position: center center;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-.divider {
-	display: none;
-	height: 0;
-}
+/*Do we need this?*/
 
 @media screen and (max-width:480px) {
 
@@ -121,5 +169,64 @@ h1 {
 		background-size: cover;
 	}
 }
+
+/* Old Code */
+
+
+/*.heading2{
+	position: relative;
+	color: #591f22;
+	font-size: 1.2em;
+	top: -10px;
+}
+*/
+
+
+/*.imgs {
+	position: relative;
+	width: 100%;
+	top: 90px;
+	right: 0;
+	bottom: 0;
+	z-index: -50000;
+	text-align: right;
+}*/
+
+/*
+#map {
+	position: relative;
+	top: 200px;
+}
+*/
+
+/*
+#bkg-imgs {
+	display: block;
+}*/
+
+
+/*#bkg-imgs li {
+	position: static;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-height: 200px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}*/
+
+/*.divider {
+	display: none;
+	height: 0;
+}
+*/
+
+
+
 
 
