@@ -46,6 +46,8 @@ p {
 	margin-left: -15px;
 }
 
+
+
 #imgs {
 	margin-top: 70px;
 	position: relative;
@@ -83,12 +85,20 @@ position: relative;
 
 
 
-.reservation {
+.opentable {
 position: relative;
 top: 50px;
 left: 60px;
 text-align: center;
 }
+
+#map {
+	left: 25px;
+	position: relative;
+	bottom: 30px;
+	top: 20px;
+}
+
 
 #contact {
 position: relative;
@@ -108,6 +118,9 @@ text-align: left;
 	width: 290px;
 	height: 400px;
 }
+
+
+
 
 
 
