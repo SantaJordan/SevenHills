@@ -30,8 +30,11 @@ strong {
 }
 
 body {
-	background: #eee;
+	background: #FFF7DA;
 }
+
+/*background: #DDD7BD;*/
+/*background: #FFF7DA;*/
 
 p {
 	margin-bottom: 7px;
@@ -58,11 +61,26 @@ p {
 	display: block;
 }
 
-#links {
-	margin-left: 800px;
-	margin-top: 360px;
+.details {
+max-width: 180px;
+max-height: 200px;
+margin-left: 800px;
+margin-top: 430px;
+position: relative;
+}
+
+#reserve {
+	text-align: center;
+	position: relative;
+	font-size: 1.6em;
+}
+
+#menus {
+	margin-top: 10px;
 	position: relative;
 }
+
+
 
 
 .reservation {
