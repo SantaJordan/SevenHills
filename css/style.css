@@ -24,9 +24,9 @@ font-size: 1.6em;
 	color: #591f22;
 	font-size: 1.2em;
 	text-align: center;
-	float: center;
 	margin-top: 50px;
 }
+
 
 .logo {
 	padding-bottom: 15px;
@@ -64,8 +64,6 @@ p {
 	margin-top: 90px;
 	margin-left: -15px;
 }
-
-
 
 #imgs {
 	margin-top: 70px;
@@ -112,27 +110,43 @@ float: right;
 	position: relative;
 }
 
+#headerleft {
+	color: #591f22;
+	font-size: 1.2em;
+	margin-top: 50px;
+	margin-left: 100px;
+}
 
-
-
-.opentable {
-position: relative;
-top: 50px;
-left: 60px;
-text-align: center;
+ol {
+	color: #591f22;
+	font-size: 1.2em;
+	margin-top: 50px;
+	margin-left: 110px;
 }
 
 #map {
-	left: 25px;
+	left: 75px;
 	position: relative;
 	bottom: 30px;
-	top: 20px;
+	top: 40px;
 }
 
+#reserveaddress {
+	position: relative;
+	top: 45px;
+	margin-left: 90px;
+}
+
+.opentable {
+position: relative;
+top: 80px;
+left: 110px;
+text-align: center;
+}
 
 #contact {
 position: relative;
-top: 70px;
+top: 90px;
 text-align: center;
 ;
 }
@@ -140,12 +154,12 @@ text-align: center;
 #hours {
 position: relative;
 top: 90px;
-left: 95px;
+left: 140px;
 text-align: left;
 }
 
 #restdetails {
-	width: 290px;
+	width: 390px;
 	height: 400px;
 }
 
@@ -176,7 +190,7 @@ text-align: left;
 	left: -30px;
 }
 */
-
+/*
 @media screen and (max-width:480px) {
 	#box {
 		position: relative;
@@ -184,7 +198,7 @@ text-align: left;
 	}
 }
 
-
+*/
 
 /*#box ul {
 	margin-bottom: 15px;
@@ -212,7 +226,7 @@ bottom: 0;
 
 /*Do we need this?*/
 
-@media screen and (max-width:480px) {
+/*@media screen and (max-width:480px) {
 
 	#bkg-imgs {
 		display: none;
@@ -229,7 +243,7 @@ bottom: 0;
 		-o-background-size: cover;
 		background-size: cover;
 	}
-}
+}*/
 
 /* Old Code */
 
