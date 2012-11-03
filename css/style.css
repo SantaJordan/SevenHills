@@ -9,6 +9,12 @@ a:hover {color: #A38A5D; text-decoration: none; }
 	float: left;
 }
 
+#address {
+	margin-left: 30px;
+	text-align: center;
+	float: left;
+}
+
 #address2 {
 color: #591f22;
 margin-top: 10px;
@@ -71,6 +77,11 @@ body {
 
 p {
 	margin-bottom: 7px;
+	color: black;
+	font-size: 1.0em;
+	margin-left: 63px;
+	margin-right: 30px;
+	margin-top: 10px;
 }
 
 
@@ -124,25 +135,12 @@ float: right;
 	position: relative;
 }
 
-
-
-
-
 ol {
 	color: #591f22;
 	font-size: 1.2em;
 	margin-top: 20px;
 	margin-left: 110px;
 }
-
-p {
-	color: black;
-	font-size: 1.0em;
-	margin-left: 63px;
-	margin-right: 30px;
-	margin-top: 10px;
-}
-
 
 
 blockquote {
@@ -187,7 +185,7 @@ h2 {
 #reserveaddress {
 	position: relative;
 	top: 45px;
-	margin-left: 90px;
+	margin-left: 25px;
 }
 
 .opentable {
