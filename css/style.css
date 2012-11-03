@@ -27,14 +27,28 @@ font-size: 1.6em;
 	margin-top: 50px;
 }
 
+#headerleft {
+	color: #591f22;
+	font-size: 40px;
+	margin-top: 50px;
+	margin-left: 60px;
+	margin-bottom: 20px;
+}
+
 
 .logo {
 	padding-bottom: 15px;
 }
 
+.logomobile {
+	padding-bottom: 15px;
+	margin-left: 43px;
+}
+
 h1 {
-	font-size: 30px;
+	font-size: 40px;
 	margin-bottom: 20px;
+	margin-right: 20px;
 	text-transform: uppercase;
 }
 
@@ -110,18 +124,57 @@ float: right;
 	position: relative;
 }
 
-#headerleft {
-	color: #591f22;
-	font-size: 1.2em;
-	margin-top: 50px;
-	margin-left: 100px;
-}
+
+
+
 
 ol {
 	color: #591f22;
 	font-size: 1.2em;
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-left: 110px;
+}
+
+p {
+	color: black;
+	font-size: 1.0em;
+	margin-left: 63px;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+
+
+blockquote {
+	color: black;
+	font-size: 1.0em;
+	margin-left: 63px;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+.bqstart {
+     float: left;
+     font-size: 400%;
+     color: #591f22;
+ }
+
+
+ .bqend {
+     font-size: 400%;
+     color: #591f22;
+     position: absolute;
+     margin-left: 5px;
+     margin-top: 20px;
+ }
+
+
+h2 {
+	color: #591f22;
+	font-size: 1.4em;
+	margin-top: 50px;
+	margin-left: 63px;
+	margin-right: 30px;
 }
 
 #map {
