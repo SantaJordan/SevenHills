@@ -17,14 +17,25 @@ a:hover {color: #A38A5D; text-decoration: none; }
 	}
 	#menus {
 		font-size: 14px;
-		margin-left: 10px;
+		margin-left: 5px;
 	}
 	#reviews {
 		font-size: 14px;
-		margin-left: 10px;
+		margin-left: 15px;
 	}
 }
 
+#chef {
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#purveyors {
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 #address1 {
 	margin-left: 10px;
@@ -151,7 +162,7 @@ float: right;
 #reviews {
 	text-align: center;
 	position: relative;
-	margin-left: 20px;
+	margin-left: 2px;
 	margin-top: 5px;
 	margin-bottom: 30px;
 }
