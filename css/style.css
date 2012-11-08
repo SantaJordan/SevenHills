@@ -5,12 +5,16 @@ a:hover {color: #A38A5D; text-decoration: none; }
 
 @media screen and (max-width:480px) {
 	#address1 {
-		position: relative;
+		position: center;
 		text-align: center;
+		margin-top: -1px;
+	}
+	#address2 {
 		font-size: 14px;
 	}
 	#reserve {
 		font-size: 14px;
+		text-align: center;
 	}
 	#details {
 		font-size: 14px;
@@ -23,6 +27,11 @@ a:hover {color: #A38A5D; text-decoration: none; }
 		font-size: 14px;
 		margin-left: 15px;
 	}
+	#phone a:link {
+	color: rgb(89, 31, 34);
+	text-decoration: none;
+	font-size: .9em;
+}
 }
 
 #chef {
@@ -57,8 +66,10 @@ margin-top: 10px;
 
 #phone {
 color: #591f22;
-font-size: 1.6em;
+font-size: 1.5em;
 }
+
+
 
 #header {
 	font-size: 20px;
@@ -240,7 +251,7 @@ text-align: center;
 #hours {
 position: relative;
 padding-top: 10px;
-padding-bottom: 40px;
+padding-bottom: 5px;
 margin-left: 90px;
 }
 
