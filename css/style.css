@@ -31,8 +31,13 @@ a:hover {color: #A38A5D; text-decoration: none; }
 	color: rgb(89, 31, 34);
 	text-decoration: none;
 	font-size: .9em;
+	}
 }
-}
+
+#parking {
+	margin-left: 30px; 
+	}
+
 
 #chef {
 	margin-left: 30px;
