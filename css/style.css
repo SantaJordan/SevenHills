@@ -23,6 +23,11 @@ a:hover {color: #A38A5D; text-decoration: none; }
 		font-size: 14px;
 		margin-left: 5px;
 	}
+	#events {
+		font-size: 14px;
+
+	}
+
 	#reviews {
 		font-size: 14px;
 		margin-left: 15px;
@@ -189,6 +194,12 @@ float: right;
 	position: relative;
 }
 
+#events {
+	margin-left: 15px;
+	position: relative;
+
+}
+
 ol {
 	color: #591f22;
 	font-size: 1.2em;
@@ -207,13 +218,13 @@ blockquote {
 
 .bqstart {
      float: left;
-     font-size: 400%;
+     font-size: 200%;
      color: #591f22;
  }
 
 
  .bqend {
-     font-size: 400%;
+     font-size: 200%;
      color: #591f22;
      position: absolute;
      margin-left: 5px;
@@ -259,10 +270,6 @@ padding-top: 10px;
 padding-bottom: 5px;
 margin-left: 90px;
 }
-
-
-
-
 
 
 /*Details about the resturant such as hours open and contact info*/
