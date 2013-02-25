@@ -32,6 +32,10 @@ a:hover {color: #A38A5D; text-decoration: none; }
 		font-size: 14px;
 		margin-left: 15px;
 	}
+	#phone {
+	font-size: .85em;
+	}
+
 	#phone a:link {
 	color: rgb(89, 31, 34);
 	text-decoration: none;
